@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <!-- header -->
+  <header class="bg-gray-900 text-white p-4 flex justify-between">
+      <h1 class="font-bold uppercase">
+          <a href="/" class="hover:text-gray-400">Mohamed Idriss Salhi</a>
+      </h1>
+      <div class="md:col-span-1 md:flex md:justify-end">
+          <ul class="flex space-x-4">
+              <li>
+                  <a href="#home" class="px-4">
+                      <span>Home</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#projects">
+                      <span>Projects</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#contact">
+                      <span>Contact</span>
+
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </header>
+
+    <!-- hero -->
+  <section class="bg-cover bg-center text-center p-8" style="background-image: url('img/download.gif')">
+    <h2 class="text-gray-900 text-4xl font-bold">Welcome to My Portfolio</h2>
+  </section> 
+
+    <!-- skills -->
+  <section class="flex flex-col items-center py-8 bg-gray-200">
+    <h2 class="text-4xl font-bold text-center mb-8">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-8 p-8">
+        <div class="skills">
+            <div class="p-4 bg-gray-800 text-white flex items-center justify-between">
+                <h3 class="text-xl font-bold">C#</h3>
+                <span class="material-icons text-4xl">code</span>
+            </div>
+            <div class="p-6">
+                <p class="mb-4 text-gray-700">developing robust applications using C# and .NET framework.</p>
+                <div class="relative pt-1">
+                    <div class="flex mb-2 items-center justify-between"></div>
+                    <div class="overflow-hidden h-2 text-xs flex rounded bg-gray-200">
+                        <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="p-4 bg-gray-800 text-white flex items-center justify-between">
+                <h3 class="text-xl font-bold">JavaScript</h3>
+                <span class="material-icons text-4xl">build</span>
+            </div>
+            <div class="p-6">
+                <p class="mb-4 text-gray-700">writing efficient and modular JavaScript code for dynamic web applications.</p>
+                <div class="relative pt-1">
+                    <div class="flex mb-2 items-center justify-between"></div>
+                    <div class="overflow-hidden h-2 text-xs flex rounded bg-gray-200">
+                        <div style="width:65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="p-4 bg-gray-800 text-white flex items-center justify-between">
+                <h3 class="text-xl font-bold">HTML & CSS</h3>
+                <span class="material-icons text-4xl">brush</span>
+            </div>
+            <div class="p-6">
+                <p class="mb-4 text-gray-700">creating semantic, accessible, and well-styled web pages using HTML and CSS.</p>
+                <div class="relative pt-1">
+                    <div class="flex mb-2 items-center justify-between"></div>
+                    <div class="overflow-hidden h-2 text-xs flex rounded bg-gray-200">
+                        <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- project -->
+  <section id="projects" class="py-8 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="projects">
+            <img src="img/unity3D.jpg" alt="Unity3D Game" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Unity3D Game</h3>
+              <p class="text-gray-700 mb-4">Developed a 3D game using Unity3D and C#. The game features immersive graphics and engaging gameplay mechanics.</p>
+              <a href="#" class="text-blue-500 hover:underline">View Details</a>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/portfolio.jpg" alt="Portfolio Website" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Portfolio Website</h3>
+              <p class="text-gray-700 mb-4">Created a personal portfolio website using HTML, CSS, and Tailwind CSS. The site is fully responsive and showcases my projects and skills.</p>
+              <a href="#" class="text-blue-500 hover:underline">View Details</a>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/restaurant.jpg" alt="Restaurant Website" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Restaurant Website</h3>
+              <p class="text-gray-700 mb-4">Developed a restaurant website using HTML, CSS, and Bootstrap. The site includes a menu, contact information, and customer reviews.</p>
+              <a href="#" class="text-blue-500 hover:underline">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+      
+      <!-- Contact -->
+  <section id="contact" class="py-8 bg-gray-200">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">Contact Me</h2>
+      <form class="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" id="name" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Your name">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Your email">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea id="message" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" rows="5" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Send</button>
+      </form>
+    </div>
+  </section>
+
+      <!-- footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 flex flex-col items-center">
+      <p class="text-sm mb-4 text-center">&copy; 2024 Mohamed Idriss Salhi. All rights reserved.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="text-white hover:text-gray-400">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-white hover:text-gray-400">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-white hover:text-gray-400">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="text-white hover:text-gray-400">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
