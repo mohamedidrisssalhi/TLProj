@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Section-->
+    <header class="bg-gray-800 text-white p-4 fixed w-full top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Tech</h1>
+            <nav>
+                <ul class="flex space-x-4 font-bold">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Wrapper -->
+    <div class="pt-16">
+        <!-- Featured Posts Section -->
+        <section class="py-8">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="fea">
+                    <img src="img/tech1.jpg" alt="Tech Post 1" class="w-full h-48 object-cover rounded-md">
+                    <h2 class="text-xl font-bold mt-4">The Rise of AI in Everyday Life</h2>
+                    <p class="text-gray-400 mt-2">Exploring how AI is changing the way we live and work, from smart homes to healthcare.</p>
+                </div>
+                <div class="fea">
+                    <img src="img/tech2.jpg" alt="Tech Post 2" class="w-full h-48 object-cover rounded-md">
+                    <h2 class="text-xl font-bold mt-4">Blockchain: Beyond Cryptocurrency</h2>
+                    <p class="text-gray-400 mt-2">Discover the potential applications of blockchain technology in various industries.</p>
+                </div>
+                <div class="fea">
+                    <img src="img/tech3.jpg" alt="Tech Post 3" class="w-full h-48 object-cover rounded-md">
+                    <h2 class="text-xl font-bold mt-4">The Future of Quantum Computing</h2>
+                    <p class="text-gray-400 mt-2">A look into the advancements in quantum computing and its future implications.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Category Section -->
+        <section class="py-8 bg-gray-800">
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">Categories</h2>
+                <div class="mb-8">
+                    <span class="bg-gray-600 text-white px-4 py-2 rounded-full">Technology</span>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">The Evolution of Mobile Networks</h3>
+                            <p class="text-gray-400 mt-2">Published on: March 17, 2023</p>
+                            <p class="text-gray-400 mt-2">A detailed look at the advancements in mobile network technology and its impact on connectivity.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">Cybersecurity Trends to Watch</h3>
+                            <p class="text-gray-400 mt-2">Published on: April 2, 2023</p>
+                            <p class="text-gray-400 mt-2">An overview of the latest cybersecurity trends and how to protect your digital assets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <span class="bg-gray-600 text-white px-4 py-2 rounded-full">Health</span>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">The Role of Technology in Healthcare</h3>
+                            <p class="text-gray-400 mt-2">Published on: February 10, 2023</p>
+                            <p class="text-gray-400 mt-2">How technology is revolutionizing healthcare delivery and patient care.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">Wearable Tech for Fitness</h3>
+                            <p class="text-gray-400 mt-2">Published on: March 5, 2023</p>
+                            <p class="text-gray-400 mt-2">Exploring the latest wearable technology for tracking and improving fitness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <span class="bg-gray-600 text-white px-4 py-2 rounded-full">Travel</span>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">Tech Innovations in Travel</h3>
+                            <p class="text-gray-400 mt-2">Published on: January 22, 2023</p>
+                            <p class="text-gray-400 mt-2">How technology is enhancing travel experiences and making journeys more enjoyable.</p>
+                        </div>
+                        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-bold">Virtual Reality Travel Experiences</h3>
+                            <p class="text-gray-400 mt-2">Published on: March 8, 2023</p>
+                            <p class="text-gray-400 mt-2">The rise of virtual reality in the travel industry and its potential to transform tourism.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #recent posts -->
+        <section class="py-8">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+                <ul>
+                    <li class="border-b py-2 border-gray-700">
+                        <h3 class="text-xl">The Impact of 5G on Connectivity</h3>
+                        <p class="text-gray-400">Published on: May 20, 2024</p>
+                    </li>
+                    <li class="border-b py-2 border-gray-700">
+                        <h3 class="text-xl">Advancements in Electric Vehicles</h3>
+                        <p class="text-gray-400">Published on: June 3, 2024</p>
+                    </li>
+                    <li class="border-b py-2 border-gray-700">
+                        <h3 class="text-xl">Smart Home Technology: The Future</h3>
+                        <p class="text-gray-400">Published on: July 1, 2024</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        
+
+        <!-- Newsletter Subscription Form -->
+        <section class="py-8 bg-gray-800 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-2xl font-bold mb-4">Subscribe to our Newsletter</h2>
+                <form class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0">
+                    <input type="email" placeholder="Enter your email" class="p-2 border rounded bg-gray-700 text-white">
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded ml-0 md:ml-2">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Tech. All rights reserved.</p>
+                <div class="flex justify-center space-x-4 mt-2">
+                    <a href="#" class="hover:text-gray-400">Facebook</a>
+                    <a href="#" class="hover:text-gray-400">Twitter</a>
+                    <a href="#" class="hover:text-gray-400">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
